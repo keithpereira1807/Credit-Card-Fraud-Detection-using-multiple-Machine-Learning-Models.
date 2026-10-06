@@ -1,0 +1,30 @@
+# Large dataset files (do not commit 144MB Kaggle dataset)
+creditcard.csv
+*.csv.zip
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit local configuration and cache
+.streamlit/secrets.toml
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Explicitly ensure models directory is tracked
+!models/
+!models/**
